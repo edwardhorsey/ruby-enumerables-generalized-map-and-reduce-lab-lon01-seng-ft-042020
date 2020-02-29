@@ -10,5 +10,19 @@ def map(source_array)
         return newarray
     end
     
-def reduce(source_array)
-  
+def reduce(source_array, starting_point=nil)
+    if starting_point
+        total = starting_point
+        index=0
+    else
+        total = 0 
+        index = 0
+    end
+
+    while index<source_array.count do
+        x=source_array[index]
+        total = yield(total, x)
+        index += 1
+    end 
+total
+end
