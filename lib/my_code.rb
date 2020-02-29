@@ -24,10 +24,8 @@ def reduce(source_array, starting_point=nil)
         total << yield(total, x)
         index += 1
     end 
-      if !total
-    return false
-  else
-    total
-  end
+if !total
+return false
+else
 total
 end
