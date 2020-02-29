@@ -1,4 +1,4 @@
-def map_to_negativize(source_array)
+def map(source_array)
     index=0
     newarray=[]
     while index < source_array.count do
