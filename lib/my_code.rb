@@ -11,6 +11,6 @@ def map(source_array)
     end
 
 
-map_to_negativize(source_array) do |x, newarray|
+map(source_array) do |x, newarray|
      newarray << x = x *-1
 end 
