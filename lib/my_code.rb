@@ -26,6 +26,7 @@ def reduce(source_array, starting_point=nil)
     end
 if total = 0
   return true
+end
 total
 end
 
