@@ -3,7 +3,7 @@ def map(source_array)
     newarray=[]
     while index < source_array.count do
         x = source_array[index]
-        newarray = yield(x)
+        newarray << yield(x)
         index += 1
         end
         p newarray
