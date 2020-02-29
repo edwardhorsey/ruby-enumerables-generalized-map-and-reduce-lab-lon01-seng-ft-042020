@@ -9,3 +9,6 @@ def map(source_array)
         p newarray
         return newarray
     end
+    
+def reduce(source_array)
+  
