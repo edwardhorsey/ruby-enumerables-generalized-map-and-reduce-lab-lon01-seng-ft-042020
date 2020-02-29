@@ -10,8 +10,7 @@ def map_to_negativize(source_array)
         return newarray
     end
 
-array=[1,2,3,4]
 
-map_to_negativize(array) do |x, newarray|
+map_to_negativize(source_array) do |x, newarray|
      newarray << x = x *-1
 end 
