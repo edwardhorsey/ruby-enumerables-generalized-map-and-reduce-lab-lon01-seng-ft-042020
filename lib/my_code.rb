@@ -29,3 +29,6 @@ if total = 0
 else
   total
 end
+total
+end
+
